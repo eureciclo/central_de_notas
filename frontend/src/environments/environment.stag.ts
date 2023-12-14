@@ -7,10 +7,8 @@ import { global_variables } from './global_variables';
 export const environment = Object.assign(global_variables, {
   production: false,
 
-  apiEndpoint: 'https://central-notas-api.centraldepositaria.com.br/api',
-  endpoint: 'https://central-notas-api.centraldepositaria.com.br',
-  // apiEndpoint: 'https://staging.api.centraldepositaria.com.br/api',
-  // endpoint: 'http://staging.api.centraldepositaria.com.br',
+  apiEndpoint: 'https://localhost:8500/api',
+  endpoint: 'https://localhost:8500',
   clientId: '95a10572-f420-4c21-a7f7-5133b8cf6266',
   clientSecret: 'enHTR9YKMwNCOgfaQo0rRR8RYrvAltd03svixkZ4',
   scope: '',

@@ -6,9 +6,6 @@ import { global_variables } from './global_variables';
 
 export const environment = Object.assign(global_variables, {
   production: false,
-  // apiEndpoint: 'http://central-notas-api-staging.eba-5p7ur23k.us-east-1.elasticbeanstalk.com/api',
-  // endpoint: 'http://central-notas-api-staging.eba-5p7ur23k.us-east-1.elasticbeanstalk.com',
-  // apiEndpoint: 'http://staging.api.centraldepositaria.com.br/api',
   apiEndpoint: 'http://localhost:8500/api',
   endpoint: 'http://localhost:8500',
   clientId: '95a10572-f420-4c21-a7f7-5133b8cf6266',
