@@ -113,7 +113,7 @@ class ValidateInvoice
         $invoiceItem->mass_kg = $invoiceItem->comercial_quantity * $invoiceItem->comercial_unit_value;
 
         if ($invoiceItem->isTon()) {
-            $invoiceItem->mass_kg /= 100;
+            $invoiceItem->mass_kg /= 1000;
         }
 
         return true;
